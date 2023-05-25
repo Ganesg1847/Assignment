@@ -1,0 +1,16 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navmain ul li {
+  display: none;
+}
+
+.navmain li:hover ul li {
+  display: block;
+}
+
+.Subnav {
+  background-color: white;
+}
