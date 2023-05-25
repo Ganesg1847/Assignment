@@ -113,7 +113,11 @@ const Navbar = () => {
               onClick={() => setOpen(!open)}
               style={{ color: colorChange ? "#000" : "" }}
             >
-              {open ? <AiOutlineClose className=" " /> : <AiOutlineBars />}
+              {open ? (
+                <AiOutlineClose className="text-white" />
+              ) : (
+                <AiOutlineBars />
+              )}
             </button>
           }
 
