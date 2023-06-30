@@ -1,25 +1,23 @@
 import "./App.css";
 import Banner from "./Component/Home/Banner";
 import Footer from "./Component/Home/Footer";
-import MineToMill from "./Component/Home/MineToMill";
-import MineralProcessing from "./Component/Home/MineralProcessing";
-import Navbar from "./Component/Home/Navbar";
-import OilAndGas from "./Component/Home/OilAndGas";
-import OnclickTop from "./Component/Home/OnclickTop";
-import Sustainability from "./Component/Home/Sustainability";
+import ChoosPlan from "./Component/Home/ChoosPlan";
+import AboutCouse from "./Component/Home/AboutCouse";
+
+import Review from "./Component/Home/Review";
 
 function App() {
   return (
     <div>
-      <div className="space-y-14">
+      <div className="">
         <Banner />
-        <MineToMill />
-        <Sustainability />
-        <MineralProcessing />
-        <OilAndGas />
+        <AboutCouse />
+
+        <ChoosPlan />
+        <Review />
+
         <Footer />
       </div>
-      <OnclickTop />
     </div>
   );
 }
